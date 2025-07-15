@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+app {
+    height: 100vh;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    @keyframes fade-in {
+        0% {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .animate-fade-in {
+        animation: fade-in 0.4s ease-out;
+    }
+}
+
+.EmojiPickerReact.epr-dark-theme {
+    background-color: theme("colors.pink.100");
+}
+.EmojiPickerReact.epr-dark-theme .epr-emoji-category-label {
+    background-color: theme("colors.pink.200");
+}
+
+.conversation-item .avatar.online:before,
+.conversation-item .avatar.offline:before {
+    width: 8px;
+    height: 8px;
+    top: 1%;
+    right: 1%;
+    outline-width: 1px;
+}
+
+/* Markdown Styling */
+.markdown h1 {
+    @apply text-2xl font-bold mb-2;
+}
+.markdown h2 {
+    @apply text-xl font-semibold mb-2;
+}
+.markdown h3 {
+    @apply text-lg font-semibold mb-1;
+}
+.markdown p {
+    @apply mb-2;
+}
+.markdown ul {
+    @apply list-disc list-inside mb-2;
+}
+.markdown ol {
+    @apply list-decimal list-inside mb-2;
+}
+.markdown li {
+    @apply mb-1;
+}
+.markdown a {
+    @apply text-blue-600 underline hover:text-blue-800;
+}
+.markdown strong {
+    @apply font-bold;
+}
+.markdown em {
+    @apply italic;
+}
+.markdown code {
+    @apply bg-gray-100 text-sm font-mono px-1 py-0.5 rounded;
+}
+.markdown blockquote {
+    @apply border-l-4 border-gray-300 pl-4 italic text-gray-600 mb-2;
+}

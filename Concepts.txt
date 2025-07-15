@@ -1,0 +1,5 @@
+Persistent Layouts
+Broadcasting
+Complex DB Queries (!)
+Hooks (!)
+Websockets: php artisan reverb:start --debug
