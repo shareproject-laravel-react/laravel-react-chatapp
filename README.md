@@ -23,7 +23,7 @@ Make sure the following are installed:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/AishwaryaSatheCodes/SparkChat.git
+git clone https://github.com/shareproject-laravel-react/laravel-react-chatapp.git
 cd sparkchat
 ```
 2. Install dependencies
@@ -82,7 +82,7 @@ npm run dev
 
 To see the Vite React plugin error:
 
-    Start both servers (php artisan serve, php artisan reverb:start --debug and npm run dev)
+    Start servers (php artisan serve, php artisan reverb:start --debug and npm run dev)
 
     Open the app (http://localhost:8000)
 
