@@ -24,7 +24,7 @@ Make sure the following are installed:
 
 ```bash
 git clone https://github.com/shareproject-laravel-react/laravel-react-chatapp.git
-cd sparkchat
+
 ```
 2. Install dependencies
 📦 Backend (Laravel)
